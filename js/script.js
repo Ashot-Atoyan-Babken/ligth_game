@@ -32,5 +32,6 @@ setTimeout(() => {
 
 }, min);
 
-
-
+document.querySelector('button').onclick = () => {
+   location.reload();
+}

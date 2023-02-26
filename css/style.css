@@ -2,12 +2,16 @@
    width: 100px;
    height: 100px;
    border: 1px solid #000;
-   margin: 15vh 15px 0px 0px;
+   margin: 15vh 0px 0px 0px;
    border-radius: 50%;
 }
 
 .sqr:last-child {
    margin: 15vh 0px 0px 0px;
+}
+
+.sqr:nth-child(odd) {
+   margin: 35vh 0px 0px 0px;
 
 }
 
@@ -21,9 +25,9 @@
    width: 78px;
    height: 78px;
    margin: 1vh auto;
+   background: url('../img/frog_head.jpg'), no-repeat;
+   background-size: cover;
    border-radius: 50%;
-   background-color: coral;
-   cursor: pointer;
 }
 
 .count {
@@ -32,4 +36,27 @@
    align-items: center;
    margin-top: 150px;
    font-size: 25px;
+}
+
+.but {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+button {
+   width: 170px;
+   height: 55px;
+   border: none;
+   transition: 0.8s;
+}
+
+button:hover {
+   transform: scale(1.2);
+   box-shadow: 0 0 5px #a0a0ff, 0 0 10px #a0a0ff, 0 0 20px #a0a0ff, 0 0 40px #a0a0ff, 0 0;
+   letter-spacing: 2px;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+
 }
